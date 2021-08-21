@@ -1,10 +1,57 @@
 .App {
   text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(#fc575e, #90d5ec);
+
+}
+input{
+    padding:20px;
+    margin:5px;
+    width: 300px;
+    border:1px solid #fff;
+    border-radius:10px;
+    background-color:#fff;
+    outline-width: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    float:left;
+    position: absolute;
+    margin-top: 100px;
+}
+.messageContainer{
+    font-size: 22px;
+}
+.privacyContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:2px solid #fff;
+    border-radius: 20px;
+    margin-top:20px
+}
+label{
+    text-align: left;
+    margin:5px
+}
+button{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border:1px solid #fff;
+    border-radius:10px;
+    outline-width: 0;
+    padding:10px;
+    margin:10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+footer{
+    position:absolute;
+    bottom:0;
+    margin-bottom: 20px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
